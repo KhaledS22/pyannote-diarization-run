@@ -16,6 +16,8 @@ PYTHON_BIN="${4:-python}"
 
 MANIFEST_PATH="$OUT_DIR/apptek_manifest.txt"
 
+mkdir -p "$OUT_DIR"
+
 "$PYTHON_BIN" "$PROJECT/build_apptek_manifest.py" \
   --audio-root "$AUDIO_ROOT" \
   --rttm-root "$RTTM_ROOT" \
