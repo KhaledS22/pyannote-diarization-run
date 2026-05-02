@@ -1,0 +1,3 @@
+# Install CUDA-enabled torch separately for the target machine.
+pyannote.audio
+soundfile

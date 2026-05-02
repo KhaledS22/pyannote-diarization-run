@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Generated outputs
+rttm_outputs/
+outputs/
+*.rttm
+summary.csv
+*_manifest.txt
+
+# Data
+data/
+datasets/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.zip
+*.tar
+*.gz
+test.csv
